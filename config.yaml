@@ -1,0 +1,39 @@
+# Model Configuration
+
+# Available models
+models:
+  xgboost:
+    name: "XGBoost Classifier"
+    path: "models/XGBoost Classifier_model.joblib"
+    use_label_encoder: true
+  
+  svc:
+    name: "Support Vector Classifier"
+    path: "models/Support Vector Classifier_model.joblib"
+    use_label_encoder: false
+  
+  random_forest:
+    name: "Random Forest Classifier"
+    path: "models/Random Forest Classifier_model.joblib"
+    use_label_encoder: false
+  
+  logistic_regression:
+    name: "Logistic Regression"
+    path: "models/Logistic Regression_model.joblib"
+    use_label_encoder: false
+
+# Default model for test.py (streamlit_app.py ignores this)
+active_model: "xgboost"
+
+# Processor paths
+processors:
+  feature_processor: "processors/feature_processor.joblib"
+  label_encoder: "processors/label_encoder.joblib"
+
+# Display settings
+display:
+  font: "FONT_HERSHEY_SIMPLEX"
+  font_scale: 1
+  color: [0, 255, 0]  # Green (BGR format)
+  thickness: 2
+  position: [50, 50]
