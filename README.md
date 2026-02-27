@@ -105,7 +105,7 @@ Then open your browser at **http://127.0.0.1:5000**
 - View the nested run structure (parent `full_pipeline` → child model runs)
 
 
-> **Note**: I didn't push the model weights to Github to keep the repo size small, but you can find them in the `models/` directory after running the training pipeline.
+> **Note**: I didn't push the model weights to Github to keep the repo size small, but you can find them in the `models/` directory after running the training pipeline, also, inside the `mlruns` folder, you can find the model weights there if you run the code, but I didn't push them to Github to keep the repo size small.
 ---
 
 ## Demo Video
