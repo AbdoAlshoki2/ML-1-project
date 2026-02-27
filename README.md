@@ -104,6 +104,8 @@ Then open your browser at **http://127.0.0.1:5000**
 - Download saved models and preprocessing artifacts
 - View the nested run structure (parent `full_pipeline` → child model runs)
 
+
+> **Note**: I didn't push the model weights to Github to keep the repo size small, but you can find them in the `models/` directory after running the training pipeline.
 ---
 
 ## Demo Video
